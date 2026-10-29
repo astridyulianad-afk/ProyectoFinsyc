@@ -37,7 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Finsyc',
+    'apps.ahorros',
+    'apps.creditos',
+    'apps.gastos',
+    'apps.ingresos',
+    'apps.pagos_recurrentes',
+    'apps.presupuestos',
+    'apps.usuarios',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
